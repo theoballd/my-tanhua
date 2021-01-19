@@ -1,0 +1,5 @@
+com\tanhua\recommend\msg\VideoMsgConsumer.class
+com\tanhua\recommend\pojo\RecommendVideo.class
+com\tanhua\recommend\pojo\RecommendQuanZi.class
+com\tanhua\recommend\msg\QuanZiMsgConsumer.class
+com\RecommendApplication.class

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="my-tanhua-sso:war">
+    <output-path>$PROJECT_DIR$/my-tanhua-sso/target</output-path>
+    <root id="archive" name="my-tanhua-sso-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="my-tanhua-sso:war exploded" />
+    </root>
+  </artifact>
+</component>

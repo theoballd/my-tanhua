@@ -1,0 +1,59 @@
+server:
+  port: 18085
+
+
+spring:
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.31.81:3306/mytanhua?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    username: root
+    password: root
+
+
+    # Redis相关配置
+  redis:
+    jedis:
+      pool:
+        max-wait: 5000ms
+        max-idle: 100
+        min-idle: 10
+    timeout: 10s
+    cluster:
+      nodes: 192.168.31.81:6379,192.168.31.81:6380,192.168.31.81:6381
+      max-redirects: 5
+
+mybatis-plus:
+  type-enums-package: cn.itcast.tanhua.sso.enums
+  global-config:
+    db-config:
+      table-prefix: tb_
+      id-type: auto
+
+
+rocketmq:
+  name-server: 192.168.31.81:9876
+  producer:
+    group: tanhua
+
+
+jwt:
+  secret: 76bd425b6f29f7fcc2e0bfc286043df1
+
+arcsoft:
+  appid: 2EaXD2xgbEr6fvzPU5FoKDw9qQGjYg4Lq6x4DkJnAbyC
+  sdkKey: 2KLKfk9U4wYnPHonYTqum7qehZyBvjwzEzoBiK2FJEZX
+  libPath: /itcast/LINUX64
+
+
+
+
+
+
+
+
+
+

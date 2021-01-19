@@ -1,0 +1,9 @@
+com\tanhua\dubbo\server\api\UserLocationApiImpl.class
+com\tanhua\dubbo\server\api\VideoApiImpl.class
+com\tanhua\dubbo\server\api\UserLikeApiImpl.class
+com\tanhua\dubbo\server\api\UsersApiImpl.class
+com\tanhua\dubbo\server\service\IdService.class
+com\tanhua\dubbo\server\api\RecommendUserApiImpl.class
+com\DubboApplication.class
+com\tanhua\dubbo\server\api\QuanZiApiImpl.class
+com\tanhua\dubbo\server\api\VisitorsApiImpl.class
